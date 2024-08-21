@@ -1,0 +1,90 @@
+body{
+    background-color:  rgb(255, 228, 192);
+}
+h3{
+    font-size: 30px;
+    margin:15px;
+}
+p{
+    text-align: justify;
+    margin: 10px;
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:rgb(255, 228, 192);
+    height: 400px;
+}
+#dif{
+    text-align: left;
+    font-size: 22px;
+}
+#dif2{
+    text-align: justify;
+    background-color: rgb(255, 228, 192);
+    font-size: 20px;
+}
+aside{
+    background-color: rgb(255, 194, 109);
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 330px;
+    margin-top: 50px;
+    border-radius: 5px 30px;
+}
+header{
+    background-color: rgb(255, 194, 109);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+img{
+    margin-top: 50px;
+}
+a{
+    background-color: rgb(251, 157, 51);
+    color: black;
+    font-size: 15px;
+    font-family:'Lucida Sans';
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 6px 14px;
+    margin: 10px;
+    text-decoration: none;
+}
+h4{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+ul{
+    text-align: justify;
+    font-family: 'Lucida Sans';
+}
+div{
+    background-color:  rgb(255, 194, 109);
+    border-radius: 10px 35px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(251, 157, 51);
+    margin-top: 30px;
+}
+h3{
+    font-size: 19px;
+}
+li{
+    font-size: 20px;
+}
+a:hover{
+    font-size: 20px;
+    color:aliceblue;
+}

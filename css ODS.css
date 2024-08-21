@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(255, 228, 192);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 194, 109);
+}
+a{
+    background-color:  rgb(251, 157, 51);
+    font-size: 17px;
+    font-family:'Lucida Sans';
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 6px 14px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+#intro{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: baseline;
+}
+#degrader{
+    width: 140px;
+    height: 70px;
+    text-align: center;
+    background-image:linear-gradient(to bottom,  rgb(255, 194, 109),  rgb(251, 157, 51));
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(251, 157, 51);
+    margin-top: 30px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: right;
+}
+p{
+    margin: 50px;
+    text-align: justify;
+    font-size: 22px;
+}
+h2{
+    margin-left: 10px;
+}
+figure{
+    margin-top: 50px;
+}
+summary::marker{
+    color: rgb(168, 107, 36);
+}
+summary{
+    font-size: 24px;
+}
+a:hover{
+    font-size: 20px;
+    color:aliceblue;
+}
